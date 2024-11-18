@@ -1,0 +1,50 @@
+.mainContainerParkingSpace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+.parkingSpaceContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .twoWheeler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.threeWheeler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourWheeler{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+} 
+
+.allWheelerContainer{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    border: 2px solid green;
+    padding: 8px;
+
+}
+
+.allWheelerContainer span{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
